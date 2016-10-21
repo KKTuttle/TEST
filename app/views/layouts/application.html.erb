@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ProjectSetup</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <div id="wrapper">
+    	<div id="main">
+        <h2>Hey</h2>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+        <%= yield %>
+    	</div>
+    </div>
+
+    <footer class="test">
+      <h2>hey</h2>
+      <h2>hey</h2>
+      <h2>hey</h2>
+    </footer>
+
+  </body>
+</html>
