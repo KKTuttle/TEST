@@ -19,17 +19,22 @@
 @import "footer";
 
 html {
-  height: 100%;
+  position: relative;
+  min-height: 100%;
   margin: 0;
   padding: 0;
 }
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 200px;
+}
 
-#wrapper {
+/*#wrapper {
   min-height: 100%;
   position: relative;
   margin-bottom: 0;
 
-}
+}*/
 
 /*#main {
   overflow:auto;
@@ -37,15 +42,11 @@ html {
 }  */
 /* must be same height as the footer */
 
-.test {
-  background-color: lightblue;
+.footer {
   position: absolute;
-  text-align: center;
   bottom:0;
-  left:0;
   width: 100%;
-  box-sizing: border-box;
-	margin-top: -150px; /* negative value of footer height */
-	height: 150px;
-
+  height: 150px;
+  background-color: lightblue;
+  text-align: center;
 }
