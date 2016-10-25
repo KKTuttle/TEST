@@ -50,3 +50,40 @@ body {
   background-color: lightblue;
   text-align: center;
 }
+
+
+.main{
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Expletus Sans', cursive;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  // background: #392f28;
+  // background: url("sun.jpg") no-repeat center center;
+  // background-size: cover;
+
+  position: relative;
+  color: #392f28;
+}
+
+.hero img{
+  width: 100%;
+}
+
+.hero h1{
+  color:white;
+  font-size: 4.1em;
+  margin: auto;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
